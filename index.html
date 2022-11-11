@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TITLE -->
+    <title>Login</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./styles/main.css" />
+    <!-- NORMALIZE -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="login_in">
+        <div class="container login_container">
+          <img
+            class="login_img"
+            src="./images/image.png"
+            alt="rasm"
+            width="720"
+            height="900"
+            srcset="./images/image.png 1x, ./images/image@2x.png 2x"
+          />
+          <div class="login_form">
+            <form action="" class="form">
+              <p class="welcome">Welcome back</p>
+              <h2 class="login_title">Login to your account</h2>
+              <div class="mb_24">
+                <label class="blok" for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="big"
+                  id="email"
+                  placeholder="Your mail"
+                  required
+                />
+              </div>
+              <div class="mb_24">
+                <label class="blok" for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  class="big"
+                  id="password"
+                  placeholder="Your password"
+                  required
+                />
+              </div>
+              <div class="remember_wrap">
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  class="checkbox"
+                  id="checkbox"
+                />
+                <span class="remember_text">Remember me</span>
+                <a class="forgot" href="">Forgot password?</a>
+              </div>
+              <button class="btn login_btn">Login now</button>
+              <button class="btn google_btn">
+                <img class="google_img" src="./images/google.svg" alt="" /> Or
+                sign-in with google
+              </button>
+              <div class="noAccount">
+                <p class="have">Dont have an account?</p>
+                <a href="" class="have join_link">Join free today</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
